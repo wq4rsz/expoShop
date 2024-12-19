@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ProductsScreen from "./screens/ScreenProducts";
 import CartScreen from "./screens/ScreenCart";
 import { Ionicons } from "@expo/vector-icons";
-import { initializeDatabase } from "./db";
+import { initializeDatabase } from "./bd";
 
 const Tab = createBottomTabNavigator();
 
