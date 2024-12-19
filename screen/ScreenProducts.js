@@ -9,7 +9,7 @@ import {
   ActivityIndicator,
   RefreshControl,
 } from "react-native";
-import { addToCart } from "../database";
+import { addToCart } from "../bd";
 
 export default function ProductsScreen() {
   const [products, setProducts] = useState([]);
