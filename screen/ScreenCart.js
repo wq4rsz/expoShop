@@ -7,7 +7,7 @@ import {
   ActivityIndicator,
   Button,
 } from "react-native";
-import { getCartItems, clearCart } from "../database";
+import { getCartItems, clearCart } from "../bd";
 import { useFocusEffect } from "@react-navigation/native";
 
 export default function CartScreen() {
